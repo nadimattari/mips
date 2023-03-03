@@ -1,0 +1,26 @@
+{
+    "name": "nadimattari/mips",
+    "description": "MIPS e-commerce integration",
+    "type": "library",
+    "license": "GPLv3",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nadimattari\\mips\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nadim Attari",
+            "email": "nadim.attari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
